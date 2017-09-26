@@ -1,0 +1,94 @@
+<root>
+	<thread name="Main" totalTimeMS="391.452209" startTime="3026261045011" stopTime="3026262118445" totalBlocks="78"> 
+		<block name="CCryEditDoc::BeforeSaveDocument" totalTimeMS="18.671249" startTime="3026261045170" stopTime="3026261096370" args=""> 
+		</block>
+		<block name="CCryEditDoc::DoSaveDocument" totalTimeMS="343.066681" startTime="3026261096377" stopTime="3026262037129" args=""> 
+			<block name="CCryPak::OpenArchive" totalTimeMS="0.143316" startTime="3026261170754" stopTime="3026261171147" args="assets/Levels/Small/TerrainTexture.pak"> 
+			</block>
+			<block name="CCryEditDoc::SaveLevel" totalTimeMS="306.120972" startTime="3026261197665" stopTime="3026262037105" args=""> 
+				<block name="CCryEditDoc::Save" totalTimeMS="123.596016" startTime="3026261459092" stopTime="3026261798015" args=""> 
+					<block name="CMission::SyncContent" totalTimeMS="40.089577" startTime="3026261503092" stopTime="3026261613025" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.618850" startTime="3026261510619" stopTime="3026261512316" args="assets\libs\environmentpresets\small.xml"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.416092" startTime="3026261511169" stopTime="3026261512310" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.852240" startTime="3026261603538" stopTime="3026261605875" args="assets/Levels/Small/Layers/Main.lyr"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.746485" startTime="3026261603814" stopTime="3026261605861" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.328570" startTime="3026261624131" stopTime="3026261625032" args="assets/Levels/Small/LevelData/TimeOfDay.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.263294" startTime="3026261624308" stopTime="3026261625030" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.180148" startTime="3026261636635" stopTime="3026261637129" args="assets/Levels/Small/LevelData/TimeOfDay.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="4.533248" startTime="3026261637136" stopTime="3026261649567" args="assets/Levels/Small/LevelData/TimeOfDay.xml"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="4.248803" startTime="3026261637885" stopTime="3026261649536" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.441619" startTime="3026261651094" stopTime="3026261652305" args="assets/Levels/Small/LevelData/Environment.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.366132" startTime="3026261651296" stopTime="3026261652300" args=""> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.207134" startTime="3026261658933" stopTime="3026261659501" args="assets/Levels/Small/LevelData/Environment.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="9.439192" startTime="3026261659510" stopTime="3026261685394" args="assets/Levels/Small/LevelData/Environment.xml"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="9.374280" startTime="3026261659619" stopTime="3026261685325" args=""> 
+						</block>
+					</block>
+					<block name="CLog::LogPlus" totalTimeMS="6.763952" startTime="3026261686694" stopTime="3026261705242" args=""> 
+					</block>
+					<block name="CGameTokenManager::Save" totalTimeMS="27.653141" startTime="3026261705399" stopTime="3026261781229" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.465323" startTime="3026261705809" stopTime="3026261707085" args="assets/Levels/Small/LevelData/GameTokens.tmp"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="0.331123" startTime="3026261706175" stopTime="3026261707083" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.336958" startTime="3026261718201" stopTime="3026261719125" args="assets/Levels/Small/LevelData/GameTokens.tmp"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="22.188519" startTime="3026261719130" stopTime="3026261779975" args="assets/Levels/Small/LevelData/GameTokens.xml"> 
+							<block name="CIOWrapper::FopenEx" totalTimeMS="22.109385" startTime="3026261719283" stopTime="3026261779911" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CCryEditDoc::SerializeShaderCache" totalTimeMS="6.087119" startTime="3026261781313" stopTime="3026261798005" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::OpenArchive" totalTimeMS="0.331123" startTime="3026261798215" stopTime="3026261799123" args="assets/Levels/Small/Small.tmp"> 
+					<block name="CIOWrapper::FopenEx" totalTimeMS="0.261106" startTime="3026261798348" stopTime="3026261799064" args=""> 
+					</block>
+				</block>
+				<block name="CXmlArchive::SaveToPak" totalTimeMS="13.377658" startTime="3026261799140" stopTime="3026261835824" args=""> 
+				</block>
+				<block name="CTerrainManager::Save" totalTimeMS="35.714233" startTime="3026261857348" stopTime="3026261955283" args=""> 
+					<block name="CHeightmap::SerializeTerrain" totalTimeMS="0.103932" startTime="3026261857975" stopTime="3026261858260" args=""> 
+					</block>
+				</block>
+				<block name="CTerrainManager::SaveTexture" totalTimeMS="11.670625" startTime="3026261955289" stopTime="3026261987292" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.436149" startTime="3026261956178" stopTime="3026261957374" args="assets/Levels/Small/LevelData/TerrainTexture.tmp"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="0.398952" startTime="3026261956276" stopTime="3026261957370" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CVegetationMap::Save" totalTimeMS="13.627459" startTime="3026261987303" stopTime="3026262024672" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.243966" startTime="3026262014406" stopTime="3026262015075" args="assets/Levels/Small/LevelData/VegetationMap.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="2.955309" startTime="3026262015087" stopTime="3026262023191" args="assets/Levels/Small/LevelData/VegetationMap.dat"> 
+						<block name="CIOWrapper::FopenEx" totalTimeMS="2.880551" startTime="3026262015256" stopTime="3026262023155" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="CCryEditDoc::AfterSaveDocument" totalTimeMS="29.566944" startTime="3026262037138" stopTime="3026262118216" args=""> 
+			<block name="CCryPak::FOpen" totalTimeMS="0.354462" startTime="3026262045928" stopTime="3026262046900" args="assets\libs\environmentpresets\small.xml"> 
+				<block name="CIOWrapper::FopenEx" totalTimeMS="0.282621" startTime="3026262046117" stopTime="3026262046892" args=""> 
+				</block>
+			</block>
+			<block name="CCryPak::FOpen" totalTimeMS="9.472741" startTime="3026262080051" stopTime="3026262106027" args="d:\gamedev\cryengine\gitgb\user\sandbox\lastLoadPath.preset"> 
+				<block name="CIOWrapper::FopenEx" totalTimeMS="3.748107" startTime="3026262095742" stopTime="3026262106020" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>
